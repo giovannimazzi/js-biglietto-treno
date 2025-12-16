@@ -1,6 +1,6 @@
 //Prezzo unitario biglietto
 const unitPrice = 0.21;
-console.log(`Prezzo unitario biglietto = € ${unitPrice}`);
+console.log(`Prezzo unitario biglietto = €/km ${unitPrice}`);
 
 //Variabile per lo sconto
 let discount;
@@ -49,3 +49,8 @@ if (age < 18) {
   discount = 0;
 }
 console.log(`Sconto applicato = ${discount}%`);
+
+//Calcolo prezzo
+const price = km * unitPrice * (1 - discount / 100);
+console.log(`Prezzo biglietto = € ${price.toFixed(2)}`);
+alert(`Prezzo biglietto = € ${price.toFixed(2)}`);
