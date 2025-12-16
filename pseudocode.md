@@ -36,7 +36,7 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio
 
 - Calcolo `prezzo`:
 
-  `km` _ `prezzo biglietto` _ (1 - `sconto`/100)
+  `km` x `prezzo biglietto` x (1 - `sconto`/100)
 
 - Generazione output del `prezzo` in formato:
 
