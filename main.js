@@ -39,3 +39,13 @@ if (!age || age < 0) {
   alert(`Età = ${age}${hintInput}`);
 }
 console.log(`Età = ${age}`);
+
+//Selezione sconto
+if (age < 18) {
+  discount = 20;
+} else if (age > 65) {
+  discount = 40;
+} else {
+  discount = 0;
+}
+console.log(`Sconto applicato = ${discount}%`);
