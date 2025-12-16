@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Master Boolean in Web Development [152] - Assegnazione del 16/12/2025
+"
+    />
+    <meta name="author" content="Giovanni Mazzi" />
+    <title>js-biglietto-treno</title>
+
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <div
+      style="
+        max-width: 512px;
+        text-align: center;
+        background-color: rgba(224, 179, 124, 0.041);
+        border: 1px solid darkblue;
+      "
+    >
+      <header><h1>js-biglietto-treno</h1></header>
+      <marquee
+        direction="left"
+        behavior="scroll"
+        scrollamount="5"
+        loop="infinite"
+        ><big>🚂🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃🚃 </big>
+      </marquee>
+      <hr />
+      <main>
+        <h2>Biglietto del treno</h2>
+        <div style="text-align: justify; padding: 5%">
+          <p>
+            Il programma dovrà chiedere all'utente il numero di chilometri che
+            vuole percorrere e l'età del passeggero. <br /><br />
+            Sulla base di queste informazioni dovrà calcolare il prezzo totale
+            del viaggio, secondo queste regole:
+          </p>
+
+          <ul>
+            <li>
+              il prezzo del biglietto è definito in base ai km (0.21 € al km)
+            </li>
+            <li>va applicato uno sconto del 20% per i minorenni</li>
+            <li>va applicato uno sconto del 40% per gli over 65.</li>
+            <li>
+              L'output del prezzo finale va messo fuori in forma umana (con
+              massimo due decimali, per indicare centesimi sul prezzo). Questo
+              richiederà un minimo di ricerca.
+            </li>
+          </ul>
+
+          <p>
+            <strong>TIP: </strong><br />per controllare che la vostra logica sui
+            prezzi funzioni correttamente, provate a verificare quanto segue:
+          </p>
+
+          <ul>
+            <li>100km, 10 anni => prezzo corretto: €16.80</li>
+            <li>100km, 70 anni => prezzo corretto: €12.60</li>
+          </ul>
+        </div>
+      </main>
+      <footer>
+        <hr />
+        <small
+          >Master Boolean in Web Development [152] - Assegnazione del 16/12/2025
+          <br />
+          🃏<strong>Giovanni Mazzi</strong>🃏</small
+        >
+      </footer>
+    </div>
+  </body>
+</html>
